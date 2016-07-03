@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView 
+        android:id="@+id/getCar_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="您的上车地点"
+        />
+    
+    <TextView
+        android:layout_height="30dp"
+        android:layout_width="wrap_content"
+        android:text="您的订单已经提交 当前状态为"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:id="@+id/status_Text"
+        android:hint="您的状态"
+        />
+    <Button 
+        android:id="@+id/btn_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:hint="撤销您的订单"
+        />
+
+    <Button 
+        android:id="@+id/btn_finish"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:hint="我已到达目的地"
+        />
+
+</LinearLayout>
